@@ -1,0 +1,125 @@
+Machine Learning 
+	-Types of AI
+	-Learn the data from past record based on that it will give prediction
+	-Self learning model
+	-According to train dataset model will train automatically and give predictions for the test data
+It has 3 types
+	1.Supervised Learning
+		-Labelled Data
+		-Data consists of both input and output
+		Example:
+		1.Spam Clasiffication
+		WE have mail based on that will predict spam or not
+		2.Disease Diagonosis 
+		We have history of diabetes patient record for that we need to give prediction
+		3.Salary Prediction
+		Based on experience input we predict salary
+	2.Unsupervised Learning
+		-Unsupervised Learning
+		-Unlabelled Data
+		-ONly INput
+		-Using input record we need to do prediction
+		-Customer Segmentation
+	3.Reinforcement Learning
+		-Trail and Error Method
+
+Types of Supervised Learning
+	1.Classification 
+		-Classification data like 0 or 1,True or False,Positive or Negative
+		Ex.Email Spam,Placement Prediction,Medical Diagnosis
+	2.Regression
+		
+		-COntinuous values
+		-Ex.Housing Price Prediction,Salary Prediction,Sales Prediction
+
+
+
+Linear Regression
+	-It comes under Supervised Learning
+	-It is labelled data
+	-It works for Regression Data
+	-Sales Prediction,Housing Price
+	-Predict dependent data based on one more independent variable
+
+	Consider we have the data points
+	1 yr-3 lpa
+	2 yr-4 lpa
+	3 yr-5 lpa
+
+	if my question to all for 4 yr how much salary they can get??
+	IN this we can able to tell the answers
+
+	Because we have the pattern to learn and understand the data we can assume for 4yr 6lpa like
+	But if u have 20000 rows,50 columns it not possible to understand learn the data pattern
+	For this scenario we are using ML concepts
+	If u r using ML means,Ml algorithm it learn the data pattern and its like self-learning model and based on that it will prediction 
+
+
+	For this ALgorithm we are using 
+	Linear Equation_i hope u all remember straight line equation same formula
+	i.e. y=mx+c
+	We need to find best possible line based on the data points
+
+	For understanding till now we discussed salary data that only we can take for mathematical understanding
+
+	
+	Imagine u have data points
+	
+	1yr 2lpa
+	3    5
+	4    7
+
+
+
+	y=2+1(Experience)
+	 =3
+	
+	y =2+2(3)
+	  =8
+
+
+	There is the difference b/w actual and predicted values
+	Actual data is ur dataset
+	Predicted values after applying algorithm we are getting o/p that is predicted
+
+	There is the diff b/w actual and predicted we can say error or residuals
+
+	U can ask why ML gives error because it will learn data from dataset and self learning model to improve the better model performance we will get error
+	
+	Imagine we have student test paper 1st exam he/she got 78 and wt she did the mistake we will guide her means next time she will give better result
+
+	Same like only using error we can improve the better performance
+
+	To handle the error we are using Gradient Descent 
+	Gradient descent is an optimization algorithm
+
+	It is the rate of error to reduce the error values
+
+	How Gradient Descent works image u r in the top of the mountain and u need to climb down
+
+	So what we will do directly we can't come we check the route and take the step
+
+	Same like that only from ur highest values to global minima we need to reach
+
+	For reaching this we should not take small learning steps becoz training is slow
+	Large Learning -jumps the data
+
+	Check the data and take the steps and reach the minima
+
+	And if we are getting error values we can't add
+	Ex +2 0r -2 is there ur values got 0 that means its not perfect because some residuals we have
+	
+	For that scenario to handle we are using MSE-Mean Squared Error
+	
+	In this Large square error gives high penalty
+	Becoz we need to check larger errors sometime it will affect the requirement and that is outliers also
+
+	RMSE value also we can check
+
+	MAE-Absolute values 
+
+	R2 Score is used to check how ur model performance is good u should get the range closest to 0 to 1.
+
+
+
+
